@@ -1,7 +1,7 @@
 export const navbar = {
   companyName: "Stease",
   navbarItems: ["Contact", "Prijzen", "Voorbeelden"].reverse(),
-  navbarLinks: ["contact", "prijzen", "voorbeelden"].reverse(),
+  navbarLinks: ["?page=contact", "?page=prijzen", "voorbeelden"].reverse(),
 }
 
 export const homepageWindow = {

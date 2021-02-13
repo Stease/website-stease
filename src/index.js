@@ -7,7 +7,14 @@ import reportWebVitals from './reportWebVitals';
 
 console.log(window.location.href);
 
-if (window.location.href.toLowerCase().includes("/prijzen")) {
+if (window.location.href.toLowerCase().includes("?page=prijzen")) {
+  ReactDOM.render(
+    <React.StrictMode>
+      <Prijzenpage />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+} else if (window.location.href.toLowerCase().includes("?page=contact")) {
   ReactDOM.render(
     <React.StrictMode>
       <Prijzenpage />

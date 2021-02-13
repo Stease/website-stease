@@ -1,5 +1,5 @@
 import { NavBar } from "../components/NavBar";
-import { HomepageWindow } from "../components/HomepageWindow"
+import { HomepageWindow } from "../components/HomepageWindow";
 
 function Homepage() {
   return (

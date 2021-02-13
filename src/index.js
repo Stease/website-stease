@@ -2,14 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Homepage from './pages/HomePage';
+import Prijzenpage from './pages/PrijzenPage';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Homepage />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+console.log(window.location.href);
+
+if (window.location.href.toLowerCase().includes("/prijzen")) {
+  ReactDOM.render(
+    <React.StrictMode>
+      <Prijzenpage />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+} else {
+  ReactDOM.render(
+    <React.StrictMode>
+      <Homepage />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

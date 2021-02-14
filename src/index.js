@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Homepage from './pages/HomePage';
 import Prijzenpage from './pages/PrijzenPage';
+import ContactPage from './pages/ContactPage';
 import reportWebVitals from './reportWebVitals';
 
 console.log(window.location.href);
@@ -17,7 +18,7 @@ if (window.location.href.toLowerCase().includes("?page=prijzen")) {
 } else if (window.location.href.toLowerCase().includes("?page=contact")) {
   ReactDOM.render(
     <React.StrictMode>
-      <Prijzenpage />
+      <ContactPage />
     </React.StrictMode>,
     document.getElementById('root')
   );

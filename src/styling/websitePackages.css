@@ -1,0 +1,71 @@
+:root {
+  --normalWebsiteRowPadding: 1vw 1vw 1vw 2.5vw;
+  --normalWebsiteRowFontWeight: 300;
+}
+
+.websiteTh {
+  padding: 0 0 0 2.5vw;
+}
+
+.websiteRow1 .websiteRowInfo {
+  font-size: 3vw;
+  padding: 2.5vw;
+}
+
+.websiteRow2 .websiteRowInfo {
+  font-size: 1.5vw;
+  font-weight: var(--normalWebsiteRowFontWeight);
+  padding: var(--normalWebsiteRowPadding);
+}
+
+.websiteRow3 .websiteRowInfo {
+  font-size: 1.5vw;
+  font-weight: var(--normalWebsiteRowFontWeight);
+  padding: var(--normalWebsiteRowPadding);
+}
+
+.websiteRow4 .websiteRowInfo {
+  font-size: 1.5vw;
+  font-weight: var(--normalWebsiteRowFontWeight);
+  padding: var(--normalWebsiteRowPadding);
+}
+
+.websiteRow5 .websiteRowInfo {
+  font-size: 1.5vw;
+  font-weight: var(--normalWebsiteRowFontWeight);
+  padding: var(--normalWebsiteRowPadding);
+}
+
+.websiteRow6 .websiteRowInfo {
+  font-size: 1.5vw;
+  font-weight: var(--normalWebsiteRowFontWeight);
+  padding: var(--normalWebsiteRowPadding);
+}
+
+.websiteRow7 .websiteRowInfo {
+  font-size: 2.5vw;
+  padding: 2.5vw;
+  font-weight: 100;
+}
+
+.websiteRowName {
+  font-size: 1.5vw;
+  font-weight: 1000;
+  text-align: left;
+}
+
+.websiteTable {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vw;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2vw;
+
+  border: black;
+}
+
+.websiteRowInfo {
+  text-align: center;
+}

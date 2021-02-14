@@ -1,7 +1,8 @@
 export const navbar = {
   companyName: "Stease",
   navbarItems: ["Contact", "Prijzen", "Voorbeelden"].reverse(),
-  navbarLinks: ["?page=contact", "?page=prijzen", "voorbeelden"].reverse(),
+  navbarItemsIcons: ["📱", "💰", "❓"].reverse(),
+  navbarLinks: ["?page=contact", "?page=prijzen", "?page=voorbeelden"].reverse(),
 }
 
 export const homepageWindow = {
@@ -18,4 +19,24 @@ export const homepageWindow = {
     "Het meest veelzijdige stukje vlees!"
   ],
   imagePositions: ["left", "right", "left"]
+}
+
+export const websitePackages = {
+  rows: ["Pakketten", "Maximaal aantal paginas", "Animaties", "Herroepingen", "Ondersteuning na levering", "Levertijd", "Prijzen"],
+  info: [
+    ["Webdesign", "Webdesign+"],
+    ["2", "8"],
+    ["Ja", "Nee"],
+    ["2", "6"],
+    ["1 Week", "3 Maanden"],
+    ["3 - 10 Werkdagen", "3 - 15 Werkdagen"],
+    ["€50", "€75"]],
+}
+
+export const extraPackages = {
+  rows: ["Extra Pakketten", "Bevat", "Prijzen"],
+  info: [
+    ["+Hosting", "+Domeinregistratie"],
+    ["Wij regelen alle hosting voor je website erbij.", "Wij claimen voor jouw een domeinnaam en koppelen gelijk jouw website daaraan."],
+    ["+€7 P/M", "+€4 P/M"]],
 }

@@ -1,5 +1,5 @@
 export const navbar = {
-  companyLogo: "Stease",
+  companyLogo: "/img/logo.svg",
   navbarItems: ["Contact", "Prijzen", "Voorbeelden"].reverse(),
   navbarItemsIcons: ["📱", "💰", "❓"].reverse(),
   navbarLinks: ["?page=contact", "?page=prijzen", "?page=voorbeelden"].reverse(),
@@ -7,16 +7,16 @@ export const navbar = {
 
 export const homepageWindow = {
   imageSrcs: [
-    "img/logo.svg",
     "",
+    "../img/logo.svg",
     "",
   ],
-  imageAlts: ["Stease", "alt", "alt"],
-  imageTitles: ["Wie zijn wij?", "Wat doen wij?", "Kip"],
+  imageAlts: ["Steven & Eise", "Stease logo", "alt"],
+  imageTitles: ["Wie zijn wij?", "Wat doen wij?", "Bestellen"],
   imageTexts: [
     "Wij zijn Steven en Eise. \nWe zijn beide leerlingen van het HML en zijn voor een schoolproject een eigen bedrijf aan het oprichten. Wij hopen zzp'ers en kleine bedrijven te helpen groeien door ze een website aan te bieden zonder gedoe. \nAlles word voor je geregeld.",
     "Wij bieden een alles in 1 pakket.\nAan ons geef je je voorkeuren en het moreel van je bedrijf door, wij maken op basis hiervan een mooie, moderne website. Ook regelen wij de hosting en de domeinnaam. Hierdoor kan jij je zelf helemaal focussen op je bedrijf. \n Heel makkelijk dus!",
-    "Het meest veelzijdige stukje vlees!"
+    "Klik rechtsboven op: Prijzen om de prijzen te zien.\nKlik rechtsboven op Contact om de manieren te zien hoe je ons kan bereiken."
   ],
   imagePositions: ["left", "right", "left"]
 }

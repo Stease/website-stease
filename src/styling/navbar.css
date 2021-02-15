@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .liLeft {
@@ -42,9 +42,20 @@
   padding-right: 0;
 }
 
+.logo {
+  height: 5vw;
+  width: 5vw;
+  margin: 0;
+  margin-left: 1vw;
+}
+
 @media only screen and (max-width: 1150px) {
   .a {
     font-size: 2.5vw;
+  }
+  .logo {
+    height: 6vw;
+    width: 6vw;
   }
 }
 
@@ -52,17 +63,29 @@
   .a {
     font-size: 3vw;
   }
+  .logo {
+    height: 7vw;
+    width: 7vw;
+  }
 }
 
 @media only screen and (max-width: 800px) {
   .a {
     font-size: 3.5vw;
   }
+  .logo {
+    height: 8vw;
+    width: 8vw;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   .a {
     margin-top: 1vw;
+  }
+  .logo {
+    height: 9vw;
+    width: 9vw;
   }
 }
 
@@ -72,6 +95,10 @@
     margin-top: 2vw;
     padding-right: 10px;
     padding-left: 2px;
+  }
+  .logo {
+    height: 10vw;
+    width: 10vw;
   }
 }
 
@@ -83,6 +110,10 @@
   .aBold {
     font-size: 5vw;
     margin-top: 0.5vw;
+  }
+  .logo {
+    height: 11vw;
+    width: 11vw;
   }
 }
 
@@ -97,11 +128,19 @@
   .aBold {
     margin-top: 1vw;
   }
+  .logo {
+    height: 13vw;
+    width: 13vw;
+  }
 }
 
 @media only screen and (max-width: 330px) {
   .a {
     padding: 25px 4px;
     font-size: 4vw;
+  }
+  .logo {
+    height: 17vw;
+    width: 17vw;
   }
 }

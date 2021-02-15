@@ -5,22 +5,35 @@ import styling from "../styling/imagecontainer.css"
 export class ImageContainer extends React.Component {
   render() {
     const text = this.props.text.split("\n");
-    let className = "img ";
+    let classNameImg = "img ";
     if (this.props.position === "left") {
-      className = className + "floatLeft"
+      classNameImg = classNameImg + "floatLeft"
     } else {
-      className = className + "floatRight"
+      classNameImg = classNameImg + "floatRight"
     }
-    return (
-      <div className="imageContainer">
-        <img className={className} src={this.props.src} alt={this.props.alt} />
-        <div className={this.props.position === "left" ? "leftPadding" : "rightPadding"}>
-          <h1 className="h1">{this.props.title}</h1>
-          {text.map((line, i) =>
-            <p className="p">{line}<br /></p>
-          )}
+    if (this.props.position === "none") {
+      return (
+        <div className="imageContainer">
+          <div className="nonePadding">
+            <h1 className="h1">{this.props.title}</h1>
+            {text.map((line, i) =>
+              <p className="p">{line}<br /></p>
+            )}
+          </div>
         </div>
-      </div>
-    );
+      );
+    } else {
+      return (
+        <div className="imageContainer">
+          <img className={classNameImg} src={this.props.src} alt={this.props.alt} />
+          <div className={this.props.position === "left" ? "leftPadding" : "rightPadding"}>
+            <h1 className="h1">{this.props.title}</h1>
+            {text.map((line, i) =>
+              <p className="p">{line}<br /></p>
+            )}
+          </div>
+        </div>
+      );
+    }
   }
 }

@@ -39,6 +39,13 @@
   padding-left: 4vw;
 }
 
+.nonePadding {
+  height: 25vw;
+  padding-top: 2vw;
+  padding-right: 4vw;
+  padding-left: 4vw;
+}
+
 .h1 {
   font-size: 2.2vw;
   font-weight: 900;

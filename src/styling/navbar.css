@@ -49,6 +49,11 @@
   margin-left: 1vw;
 }
 
+.logoButton {
+  background-color: transparent;
+  border: none;
+}
+
 @media only screen and (max-width: 1150px) {
   .a {
     font-size: 2.5vw;

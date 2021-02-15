@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styling/index.css';
 import Homepage from './pages/HomePage';
 import Prijzenpage from './pages/PrijzenPage';
 import ContactPage from './pages/ContactPage';
 import reportWebVitals from './reportWebVitals';
 
-console.log(window.location.href);
-
-if (window.location.href.toLowerCase().includes("?page=prijzen")) {
+if (window.location.href.toLowerCase().includes("?page=home")) {
+  ReactDOM.render(
+    <React.StrictMode>
+      <Homepage />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+} else if (window.location.href.toLowerCase().includes("?page=prijzen")) {
   ReactDOM.render(
     <React.StrictMode>
       <Prijzenpage />

@@ -75,3 +75,113 @@
 .websiteRowInfo {
   text-align: center;
 }
+
+@media only screen and (max-width: 950px) {
+  .websiteRow1 .websiteRowInfo {
+    font-size: 4vw;
+  }
+
+  .websiteRow2 .websiteRowInfo {
+    font-size: 2.5vw;
+  }
+
+  .websiteRow3 .websiteRowInfo {
+    font-size: 2.5vw;
+  }
+
+  .websiteRow4 .websiteRowInfo {
+    font-size: 2.5vw;
+  }
+
+  .websiteRow5 .websiteRowInfo {
+    font-size: 2.5vw;
+  }
+
+  .websiteRow6 .websiteRowInfo {
+    font-size: 2.5vw;
+  }
+
+  .websiteRow7 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteTable {
+    width: 84%;
+  }
+
+  .websiteRowName {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .websiteRow1 .websiteRowInfo {
+    font-size: 4.5vw;
+  }
+
+  .websiteRow2 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteRow3 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteRow4 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteRow5 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteRow6 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteRow7 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteTable {
+    width: 100%;
+    border-radius: 0;
+  }
+  .websiteRowName {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .websiteRow1 .websiteRowInfo {
+    font-size: 5vw;
+  }
+
+  .websiteRow2 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRow3 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRow4 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRow5 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRow6 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRow7 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRowName {
+    font-size: 3.5vw;
+  }
+}

@@ -23,7 +23,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 4vw;
-  margin-bottom: 4vw;
+  margin-bottom: 30vw;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   padding: 2vw;
@@ -43,4 +43,63 @@
 
 .rowInfo {
   text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .row1 .rowInfo {
+    font-size: 4vw;
+  }
+
+  .row2 .rowInfo {
+    font-size: 2vw;
+  }
+
+  .row3 .rowInfo {
+    font-size: 3.5vw;
+  }
+
+  .rowName {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .row1 .rowInfo {
+    font-size: 4.5vw;
+  }
+
+  .row2 .rowInfo {
+    font-size: 2.5vw;
+  }
+
+  .row3 .rowInfo {
+    font-size: 4vw;
+  }
+
+  .rowName {
+    font-size: 3vw;
+  }
+
+  .table {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .row1 .rowInfo {
+    font-size: 4.8vw;
+  }
+
+  .row2 .rowInfo {
+    font-size: 3vw;
+  }
+
+  .row3 .rowInfo {
+    font-size: 4.3vw;
+  }
+
+  .rowName {
+    font-size: 3.3vw;
+  }
 }

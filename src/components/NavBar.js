@@ -15,7 +15,7 @@ export class NavBar extends React.Component {
   }
 
   handleClickLogo() {
-    window.location.replace("localhost:3000/?page=home");
+    window.location.replace("/?page=home");
   }
 
   render() {

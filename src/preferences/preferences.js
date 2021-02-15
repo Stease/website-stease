@@ -1,5 +1,5 @@
 export const navbar = {
-  companyLogo: "/img/logo.svg",
+  companyLogo: "/img/logo singular.svg",
   navbarItems: ["Contact", "Prijzen"].reverse(),
   navbarItemsIcons: ["📱", "💰"].reverse(),
   navbarLinks: ["?page=contact", "?page=prijzen"].reverse(),
@@ -8,7 +8,7 @@ export const navbar = {
 export const homepageWindow = {
   imageSrcs: [
     "",
-    "../img/logo.svg",
+    "/img/logo singular.svg",
     "",
   ],
   imageAlts: ["Steven & Eise", "Stease logo", "alt"],

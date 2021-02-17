@@ -1,7 +1,7 @@
 export const navbar = {
   companyLogo: "/img/logo singular.svg",
   navbarItems: ["Contact", "Prijzen"].reverse(),
-  navbarItemsIcons: ["📱", "💰"].reverse(),
+  navbarItemsIcons: ["", ""].reverse(),
   navbarLinks: ["?page=contact", "?page=prijzen"].reverse(),
 }
 

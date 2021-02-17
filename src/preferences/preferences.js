@@ -22,7 +22,7 @@ export const homepageWindow = {
 }
 
 export const websitePackages = {
-  rows: ["Pakketten", "Maximaal aantal paginas", "Animaties", "Herroepingen", "Ondersteuning na levering", "Levertijd", "Prijzen"],
+  rows: ["Pakketten", "Maximaal aantal paginas", "Animaties", "Herroepingen", "Ondersteuning na levering", "Levertijd", "Tarieven"],
   info: [
     ["Webdesign", "Webdesign+"],
     ["2", "8"],
@@ -34,7 +34,7 @@ export const websitePackages = {
 }
 
 export const extraPackages = {
-  rows: ["Extra Pakketten", "Bevat", "Prijzen"],
+  rows: ["Extra Pakketten", "Bevat", "Tarieven"],
   info: [
     ["+Hosting", "+Domeinregistratie"],
     ["Wij regelen alle hosting voor je website erbij.", "Wij claimen voor jouw een domeinnaam en koppelen gelijk jouw website daaraan."],

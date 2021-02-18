@@ -40,3 +40,9 @@ export const extraPackages = {
     ["Wij regelen alle hosting voor je website erbij.", "Wij claimen voor jouw een domeinnaam en koppelen gelijk jouw website daaraan."],
     ["+€7 P/M", "+€4 P/M"]],
 }
+
+export const contactpageWindow = {
+  title: "Hoe neem je contact met ons op?",
+  text: "Je kan ons bereiken via:\n\nE-mail: contact@stease.nl\n\nAndere opties komen later beschikbaar.",
+  imagePosition: "none",
+}

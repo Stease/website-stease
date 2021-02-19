@@ -26,7 +26,7 @@ export const websitePackages = {
   info: [
     ["Webdesign", "Webdesign+"],
     ["2", "8"],
-    ["Nee", "Jaa"],
+    ["Nee", "Ja"],
     ["2", "6"],
     ["1 Week", "3 Maanden"],
     ["3 - 10 Werkdagen", "3 - 15 Werkdagen"],

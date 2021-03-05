@@ -38,7 +38,7 @@ export const extraPackages = {
   info: [
     ["+Hosting", "+Domeinregistratie"],
     ["Wij regelen alle hosting voor je website erbij.", "Wij claimen voor jouw een domeinnaam en koppelen gelijk jouw website daaraan."],
-    ["+€7 P/M", "+€4 P/M"]],
+    ["+€4 P/M", "+€3 P/M"]],
 }
 
 export const contactpageWindow = {

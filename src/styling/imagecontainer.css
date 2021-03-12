@@ -14,16 +14,20 @@
 
 .img {
   height: 25vw;
-  width: 37vw;
+  width: 33.3vw;
   object-fit: contain;
 }
 
 .floatLeft {
   float: left;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .floatRight {
   float: right;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .leftPadding {

@@ -7,7 +7,7 @@ export const navbar = {
 
 export const homepageWindow = {
   imageSrcs: [
-    "",
+    "/img/Eise-Steven.png",
     "/img/logo singular.svg",
     "",
   ],

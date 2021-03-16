@@ -14,7 +14,6 @@
 
 .img {
   height: 25vw;
-  width: 33.3vw;
   object-fit: contain;
 }
 
@@ -99,13 +98,17 @@
 
 @media only screen and (max-width: 650px) {
   .img {
-    height: 40vw;
+    height: auto;
     width: 70vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
 
   .imageContainer {
     margin: 15vw;
-    height: 85vw;
+    height: 110vw;
   }
 
   .h1 {
@@ -133,13 +136,15 @@
 
 @media only screen and (max-width: 400px) {
   .img {
-    height: 50vw;
+    height: auto;
     width: 100vw;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
   .imageContainer {
     margin: 0 0 3vh 0;
-    height: 120vw;
+    height: 165vw;
     border-radius: 0;
   }
 

@@ -13,7 +13,7 @@ if (window.location.href.toLowerCase().includes("?page=home")) {
     </React.StrictMode>,
     document.getElementById('root')
   );
-} else if (window.location.href.toLowerCase().includes("?page=prijzen")) {
+} else if (window.location.href.toLowerCase().includes("?page=tarieven")) {
   ReactDOM.render(
     <React.StrictMode>
       <Prijzenpage />

@@ -1,0 +1,187 @@
+:root {
+  --normalWebsiteRowPadding: 1vw 1vw 1vw 2.5vw;
+  --normalWebsiteRowFontWeight: 300;
+}
+
+.websiteTh {
+  padding: 0 0 0 2.5vw;
+}
+
+.websiteRow1 .websiteRowInfo {
+  font-size: 3vw;
+  padding: 2.5vw;
+}
+
+.websiteRow2 .websiteRowInfo {
+  font-size: 1.5vw;
+  font-weight: var(--normalWebsiteRowFontWeight);
+  padding: var(--normalWebsiteRowPadding);
+}
+
+.websiteRow3 .websiteRowInfo {
+  font-size: 1.5vw;
+  font-weight: var(--normalWebsiteRowFontWeight);
+  padding: var(--normalWebsiteRowPadding);
+}
+
+.websiteRow4 .websiteRowInfo {
+  font-size: 1.5vw;
+  font-weight: var(--normalWebsiteRowFontWeight);
+  padding: var(--normalWebsiteRowPadding);
+}
+
+.websiteRow5 .websiteRowInfo {
+  font-size: 1.5vw;
+  font-weight: var(--normalWebsiteRowFontWeight);
+  padding: var(--normalWebsiteRowPadding);
+}
+
+.websiteRow6 .websiteRowInfo {
+  font-size: 1.5vw;
+  font-weight: var(--normalWebsiteRowFontWeight);
+  padding: var(--normalWebsiteRowPadding);
+}
+
+.websiteRow7 .websiteRowInfo {
+  font-size: 2.5vw;
+  padding: 2.5vw;
+  font-weight: 100;
+}
+
+.websiteRowName {
+  font-size: 1.5vw;
+  font-weight: 500;
+  text-align: left;
+}
+
+.websiteTable {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 2vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: black;
+  transition: 0.3s;
+}
+
+.websiteTable:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
+  transform: translate(0px, -10px);
+}
+
+.websiteRowInfo {
+  text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .websiteRow1 .websiteRowInfo {
+    font-size: 4vw;
+  }
+
+  .websiteRow2 .websiteRowInfo {
+    font-size: 2.5vw;
+  }
+
+  .websiteRow3 .websiteRowInfo {
+    font-size: 2.5vw;
+  }
+
+  .websiteRow4 .websiteRowInfo {
+    font-size: 2.5vw;
+  }
+
+  .websiteRow5 .websiteRowInfo {
+    font-size: 2.5vw;
+  }
+
+  .websiteRow6 .websiteRowInfo {
+    font-size: 2.5vw;
+  }
+
+  .websiteRow7 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteTable {
+    width: 84%;
+  }
+
+  .websiteRowName {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .websiteRow1 .websiteRowInfo {
+    font-size: 4.5vw;
+  }
+
+  .websiteRow2 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteRow3 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteRow4 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteRow5 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteRow6 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteRow7 .websiteRowInfo {
+    font-size: 3vw;
+  }
+
+  .websiteTable {
+    width: 100%;
+    border-radius: 0;
+  }
+  .websiteRowName {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .websiteRow1 .websiteRowInfo {
+    font-size: 5vw;
+  }
+
+  .websiteRow2 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRow3 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRow4 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRow5 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRow6 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRow7 .websiteRowInfo {
+    font-size: 3.5vw;
+  }
+
+  .websiteRowName {
+    font-size: 3.5vw;
+  }
+}

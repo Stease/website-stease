@@ -1,0 +1,151 @@
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.liLeft {
+  float: left;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+  margin-left: 0.5vw;
+}
+
+.liRight {
+  float: right;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+.a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.8vw;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
+}
+
+.aBold {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 800;
+  margin-top: 0.2vw;
+  padding-right: 0;
+}
+
+.logo {
+  height: 5vw;
+  width: 5vw;
+  margin: 0;
+  margin-left: 1vw;
+}
+
+.logoButton {
+  background-color: transparent;
+  border: none;
+}
+
+@media only screen and (max-width: 1150px) {
+  .a {
+    font-size: 2.5vw;
+  }
+  .logo {
+    height: 6vw;
+    width: 6vw;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .a {
+    font-size: 3vw;
+  }
+  .logo {
+    height: 7vw;
+    width: 7vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .a {
+    font-size: 3.5vw;
+  }
+  .logo {
+    height: 8vw;
+    width: 8vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .a {
+    margin-top: 1vw;
+  }
+  .logo {
+    height: 9vw;
+    width: 9vw;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .a {
+    font-size: 3vw;
+    margin-top: 2vw;
+    padding-right: 10px;
+    padding-left: 2px;
+  }
+  .logo {
+    height: 10vw;
+    width: 10vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .a {
+    margin-top: 2vw;
+  }
+
+  .aBold {
+    font-size: 5vw;
+    margin-top: 0.5vw;
+  }
+  .logo {
+    height: 11vw;
+    width: 11vw;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .a {
+    padding: 20px;
+    padding-right: 6px;
+    padding-left: 1px;
+    margin-top: 0.5vw;
+  }
+
+  .aBold {
+    margin-top: 1vw;
+  }
+  .logo {
+    height: 13vw;
+    width: 13vw;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .a {
+    padding: 25px 4px;
+    font-size: 4vw;
+  }
+  .logo {
+    height: 17vw;
+    width: 17vw;
+  }
+}

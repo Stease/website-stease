@@ -22,10 +22,11 @@ export const homepageWindow = {
 }
 
 export const websitePackages = {
-  rows: ["Pakketten", "Maximaal aantal paginas", "Animaties", "Herroepingen", "Ondersteuning na levering", "Levertijd", "Tarieven"],
+  rows: ["Pakketten", "Maximaal aantal paginas", "Animaties", "Interactief", "Herroepingen", "Ondersteuning na levering", "Levertijd", "Tarieven"],
   info: [
     ["Webdesign", "Webdesign+"],
     ["2", "8"],
+    ["Nee", "Ja"],
     ["Nee", "Ja"],
     ["2", "6"],
     ["1 Week", "3 Maanden"],

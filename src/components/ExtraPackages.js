@@ -14,7 +14,7 @@ export class ExtraPackages extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="extrapackages-div">
         <table className="table">
           {this.state.rows.map((row, i) =>
             <tr key={i} className={"tr row" + (i + 1)}>
@@ -24,6 +24,9 @@ export class ExtraPackages extends React.Component {
               )}
             </tr>
           )}
+          <tr>
+            <p className="database">Database of server is + €6 p/m</p>
+          </tr>
         </table>
       </div>
     );

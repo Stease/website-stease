@@ -19,6 +19,7 @@
 }
 
 .table {
+  position: relative;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -45,6 +46,13 @@
   text-align: center;
 }
 
+.database {
+  position: absolute;
+  bottom: 9%;
+  left: 26%;
+  font-size: 1vw;
+}
+
 @media only screen and (max-width: 950px) {
   .row1 .rowInfo {
     font-size: 4vw;
@@ -60,6 +68,13 @@
 
   .rowName {
     font-size: 2.5vw;
+  }
+
+  .database {
+    position: absolute;
+    bottom: 7%;
+    left: 27%;
+    font-size: 1vw;
   }
 }
 

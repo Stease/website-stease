@@ -44,6 +44,6 @@ export const extraPackages = {
 
 export const contactpageWindow = {
   title: "Hoe neem je contact met ons op?",
-  text: "Je kan ons bereiken via:\n\nE-mail: contact@stease.nl\n\nAndere opties komen later beschikbaar.",
+  text: "Je kan ons bereiken via:\n\nE-mail: steasewebsite@gmail.com\n\nAndere opties komen later beschikbaar.",
   imagePosition: "none",
 }
